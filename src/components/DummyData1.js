@@ -3,7 +3,7 @@ import React from "react";
 function DummyData1() {
   return (
     <div>
-      <h2>What the hell is going on who asked you about your details </h2>
+      <h2>Hi This Is Muni Kumar </h2>
     </div>
   );
 }

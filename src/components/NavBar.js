@@ -11,16 +11,23 @@ function NavBar() {
           justifyContent: "space-around",
         }}
       >
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <h3>Home</h3>
-        </Link>
-
-        <Link to="login" style={{ textDecoration: "none" }}>
-          <h3>Login</h3>
-        </Link>
-        <Link to="logout" style={{ textDecoration: "none" }}>
-          <h3>Logout</h3>
-        </Link>
+        <div className="link_div">
+          {" "}
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <h3>Home</h3>
+          </Link>
+        </div>
+        <div className="link_div">
+          {" "}
+          <Link to="login" style={{ textDecoration: "none" }}>
+            <h3>Login</h3>
+          </Link>
+        </div>
+        <div className="link_div">
+          <Link to="logout" style={{ textDecoration: "none" }}>
+            <h3>Logout</h3>
+          </Link>
+        </div>
       </nav>
     </div>
   );
